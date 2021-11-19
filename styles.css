@@ -65,7 +65,7 @@ body {
   animation-name: marche;
   animation-duration: 0.4s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(3);
+  animation-timing-function: steps(2);
 }
 
 @keyframes marche {
