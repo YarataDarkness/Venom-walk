@@ -65,10 +65,10 @@ body {
   animation-name: marche;
   animation-duration: 0.4s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(10);
+  animation-timing-function: steps(3);
 }
 
 @keyframes marche {
   from { background-position: 0 0; }
-  to { background-position: 0 0; }
+  to { background-position: 0 250; }
 }
