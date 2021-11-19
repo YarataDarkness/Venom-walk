@@ -63,7 +63,7 @@ body {
   background-size: 100% auto;
 
   animation-name: marche;
-  animation-duration: 1s;
+  animation-duration: 0.7s;
   animation-delay: 0.4s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(3);
