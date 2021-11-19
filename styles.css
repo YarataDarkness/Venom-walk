@@ -70,5 +70,5 @@ body {
 
 @keyframes marche {
   from { background-position: 0 0; }
-  to { background-position: 1776px 0; }
+  to { background-position: 0 0; }
 }
