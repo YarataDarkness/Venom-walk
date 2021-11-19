@@ -2,3 +2,5 @@
 
 const isMarchePause = document.querySelector('.btn');
 
+const isanimation = document.querySelector('.animation');
+
