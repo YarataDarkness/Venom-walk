@@ -6,5 +6,6 @@ const isanimation = document.querySelector('.animation');
 
 isMarchePause.addEventListener('click', function(){
     isanimation.classList.add("is-walking");
+    isMarchePause.display = inline
     //console.log(isanimation);
 });
