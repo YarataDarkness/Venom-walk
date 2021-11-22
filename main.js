@@ -9,3 +9,9 @@ isMarchePause.addEventListener('click', function(){
     //isMarchePause.innerHTML = "Pause";
     //console.log(isanimation);
 });
+
+if (isvenom.classList.contains('is-walking')){
+    isMarchePause.addEventListener('click', function(){
+        isvenom.classList.toggle('is-walking');
+    });
+};
