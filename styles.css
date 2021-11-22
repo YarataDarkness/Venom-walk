@@ -70,6 +70,13 @@ body {
   animation-timing-function: steps(3);
 }
 
+.is-walking {
+  animation-name: marche2;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(7);
+}
+
 @keyframes marche {
   from { background-position: 0 0; }
   to { background-position: 0 750px; }
