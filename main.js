@@ -2,10 +2,10 @@
 
 const isMarchePause = document.querySelector('.btn');
 
-const isanimation = document.querySelector('.animation');
+const isvenom = document.querySelector('.venom');
 
 isMarchePause.addEventListener('click', function(){
-    isanimation.classList.add('is-walking');
+    isvenom.classList.add('is-walking');
     //isMarchePause.innerHTML = "Pause";
     //console.log(isanimation);
 });
