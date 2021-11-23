@@ -7,8 +7,8 @@ const isvenom = document.querySelector('.venom');
 const isbtn = document.querySelector('.btn');
 
 isMarchePause.addEventListener('click', function(){
-    isvenom.classList.add('is-walking');
-    isbtn.classList.add('is-walking');
+    isvenom.classList.toggle('is-walking');
+    isbtn.classList.toggle('is-walking');
     //isMarchePause.innerHTML = "Pause";
     //console.log(isanimation);
 });
