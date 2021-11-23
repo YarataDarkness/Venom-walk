@@ -73,7 +73,7 @@ body {
   animation-name: marche2;
   animation-iteration-count: infinite;
   animation-duration: 1s;
-  animation-timing-function: steps(7);
+  animation-timing-function: steps(3);
 }
 
 @keyframes marche {
@@ -82,6 +82,6 @@ body {
 }
 
 @keyframes marche2 {
-  from { background-position: 0 750px; }
-  to { background-position: 0 0; }
+  from { background-position: 0 0; }
+  to { background-position: 0 750px; }
 }
