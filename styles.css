@@ -66,14 +66,14 @@ body {
   animation-name: marche;
   animation-duration: 0.4s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(3);
+  animation-timing-function: steps(3|10);
 }
 
 .is-walking {
   animation-name: marche2;
   animation-iteration-count: infinite;
   animation-duration: 1s;
-  animation-timing-function: steps(1,4|7);
+  animation-timing-function: steps(7);
 }
 
 @keyframes marche {
