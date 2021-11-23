@@ -72,7 +72,7 @@ body {
 .is-walking {
   animation-name: marche2;
   animation-iteration-count: infinite;
-  animation-duration: 0.4s;
+  animation-duration: 1s;
   animation-timing-function: steps(7);
 }
 
