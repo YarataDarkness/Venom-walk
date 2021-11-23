@@ -16,7 +16,7 @@ if (isvenom.classList.contains('is-walking')){
     //isMarchePause.addEventListener('click', function(){
    //     isvenom.classList.toggle('is-walking');
     //});
-    isbtn.innerHTML = `<button>Pause</button>`;
+    isbtn.innerHTML = `<button>"Pause"</button>`;
 
 
 };
