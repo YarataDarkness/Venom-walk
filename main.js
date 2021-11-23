@@ -14,4 +14,5 @@ if (isvenom.classList.contains('is-walking')){
     isMarchePause.addEventListener('click', function(){
         isvenom.classList.toggle('is-walking');
     });
+    
 };

@@ -50,7 +50,7 @@ body {
 
 .btn::after {
   content: "Pause";
-  display: contents;
+  display: none;
 }
 
 .venom  {
