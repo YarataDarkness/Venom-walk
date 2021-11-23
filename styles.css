@@ -76,9 +76,9 @@ body {
   animation-timing-function: steps(7);
 }
 
-.is-walking .btn {
+.is-walking .btn::after {
   content: "Pause";
-  display:block;
+  display: block;
 }
 
 @keyframes marche {
