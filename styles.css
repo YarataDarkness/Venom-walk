@@ -65,7 +65,6 @@ body {
 
   animation-name: marche;
   animation-duration: 0.4s;
-  animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: steps(3);
 }
