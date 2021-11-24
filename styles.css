@@ -76,6 +76,11 @@ body {
   animation-timing-function: steps(7);
 }
 
+.is-walking .btn::before {
+  content: "Marche";
+  display: inline;
+}
+
 .is-walking .btn::after {
   content: "Pause";
   display: inline;
