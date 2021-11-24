@@ -78,7 +78,7 @@ body {
 
 .is-walking .btn::after {
   content: "Pause";
-  display: block;
+  display: inline;
 }
 
 @keyframes marche {
