@@ -93,6 +93,6 @@ body {
 }
 
 @keyframes marche2 {
-  from { background-position: 0 0; }
-  to { background-position: 0 750px; }
+  from { background-position: 0 -1000px; }
+  to { background-position: 0 -2500px; }
 }
