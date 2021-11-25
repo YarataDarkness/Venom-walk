@@ -8,6 +8,8 @@ const isbtn = document.querySelector('.btn');
 
 const isanimation = document.querySelector('.animation');
 
+
+
 isMarchePause.addEventListener('click', function(){
     isanimation.classList.toggle('is-walking');
     //isbtn.classList.toggle('is-walking');
