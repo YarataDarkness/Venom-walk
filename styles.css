@@ -75,6 +75,7 @@ body {
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(6);
+  animation-direction: normal;
 }
 
 .is-walking .btn::before {
