@@ -67,6 +67,7 @@ body {
   animation-duration: 0.4s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(3);
+  animation-direction: alternate-reverse;
 }
 
 .is-walking {
