@@ -31,6 +31,12 @@ body {
   background-repeat: repeat-x;
   background-size: cover;
   background-position: 0 0;
+
+  animation-name: slide;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
 }
 
 .btn {
@@ -86,6 +92,10 @@ body {
 .is-walking .btn::after {
   content: "Pause";
   display: inline;
+}
+
+.is-walking .bg{
+  animation-play-state: running;
 }
 
 @keyframes marche {
