@@ -78,7 +78,7 @@ body {
 
 .is-walking .btn::before {
   content: "Marche";
-  display: inline;
+  display: none;
 }
 
 .is-walking .btn::after {
